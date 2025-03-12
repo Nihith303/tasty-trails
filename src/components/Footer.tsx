@@ -3,8 +3,24 @@ import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Mail, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const { toast } = useToast();
+
+  const handleSubscribe = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email) {
+      toast({
+        title: "Subscription successful!",
+        description: "Thank you for subscribing to our newsletter.",
+      });
+      setEmail("");
+    }
+  };
+
   return (
     <footer className="bg-muted py-16 border-t border-border">
       <div className="container mx-auto px-4 md:px-6">
@@ -64,6 +80,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors">
                   Contact Us
                 </Link>
@@ -109,16 +130,19 @@ const Footer = () => {
             <p className="text-muted-foreground mb-4">
               Get weekly recipes and special offers delivered to your inbox.
             </p>
-            <div className="flex space-x-2">
+            <form onSubmit={handleSubscribe} className="flex space-x-2">
               <Input
                 type="email"
                 placeholder="Your email"
                 className="bg-background"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
               />
               <Button type="submit" variant="default">
                 <Mail className="h-4 w-4" />
               </Button>
-            </div>
+            </form>
           </div>
         </div>
 
@@ -126,12 +150,6 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
             © {new Date().getFullYear()} Tasty Trail. All rights reserved.
           </p>
-          <div className="flex items-center space-x-4">
-            <img src="https://via.placeholder.com/40x25" alt="Visa" className="h-6" />
-            <img src="https://via.placeholder.com/40x25" alt="Mastercard" className="h-6" />
-            <img src="https://via.placeholder.com/40x25" alt="American Express" className="h-6" />
-            <img src="https://via.placeholder.com/40x25" alt="PayPal" className="h-6" />
-          </div>
         </div>
       </div>
     </footer>
