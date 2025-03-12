@@ -85,7 +85,7 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="min-h-screen bg-muted/30">
+    <div className="min-h-screen bg-muted/30 pt-20">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row gap-6">
           <Navbar />
