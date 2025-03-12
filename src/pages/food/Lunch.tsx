@@ -18,64 +18,52 @@ const LunchPage = () => {
   const lunchItems = [
     {
       id: 1,
-      name: "Paneer Butter Masala Thali",
+      name: "Classic Andhra Thali",
       description:
-        "Rich paneer curry with butter naan, jeera rice, dal, and side salad",
-      image:
-        "https://images.unsplash.com/photo-1631452180539-96eca67d9e5c?w=500&auto=format&fit=crop&q=80",
-      price: "$12.99",
+        "A wholesome meal with tomato pappu, gutti vankaya kura, avakaya, curd rice, and pappadam for a traditional start.",
+      image: "../../public/food/thalli.jpeg",
     },
     {
       id: 2,
-      name: "South Indian Meal",
-      description: "Rice, sambar, rasam, vegetable curry, yogurt, and papadum",
-      image:
-        "https://images.unsplash.com/photo-1627662168223-7df99068099a?w=500&auto=format&fit=crop&q=80",
-      price: "$11.99",
+      name: "Spicy and Tangy Feast",
+      description:
+        "Enjoy tamarind rice, buttermilk curry, crispy okra fry, and gongura pachadi, balancing spice and tanginess.",
+      image: "../../public/food/spicy-feast.jpeg",
     },
     {
       id: 3,
-      name: "Rajma Chawal Bowl",
-      description: "Classic kidney bean curry served with steamed basmati rice",
-      image:
-        "https://images.unsplash.com/photo-1585937421612-70a008356c36?w=500&auto=format&fit=crop&q=80",
-      price: "$9.99",
+      name: "Nellore Special",
+      description:
+        "Relish the famous Nellore chepala pulusu with beans fry, pachi pulusu, and comforting mudda pappu.",
+      image: "../../public/food/nellore-special.jpg",
     },
     {
       id: 4,
-      name: "Chole Bhature",
+      name: "Rayalaseema Delights",
       description:
-        "Spiced chickpea curry with fluffy fried bread and pickled onions",
-      image:
-        "https://images.unsplash.com/photo-1639024471283-03518883512d?w=500&auto=format&fit=crop&q=80",
-      price: "$10.99",
+        "A rustic spread of jonna roti, ulavacharu, spicy natu kodi pulusu, kanda vepudu, and gongura pachadi.",
+      image: "../../public/food/rayala.jpg",
     },
     {
       id: 5,
       name: "Vegetable Biryani",
       description:
         "Fragrant rice cooked with vegetables, herbs, and special spices",
-      image:
-        "https://images.unsplash.com/photo-1577304897692-de4c28d6e877?w=500&auto=format&fit=crop&q=80",
-      price: "$11.49",
+      image: "../../public/food/veg-briyani.avif",
     },
     {
       id: 6,
-      name: "Dal Tadka Combo",
+      name: "Coastal Andhra Flavors",
       description:
-        "Yellow lentils tempered with spices, served with rice and roti",
-      image:
-        "https://images.unsplash.com/photo-1626132647523-66d3350a3f9c?w=500&auto=format&fit=crop&q=80",
-      price: "$8.99",
+        "Savor coastal delicacies like royyala iguru, brinjal chutney, dosakaya pappu, and pappadam with ghee.",
+      image: "../../public/food/vankaya.jpeg",
     },
     {
       id: 7,
-      name: "Pav Bhaji",
+      name: "Chicken Biryani",
       description:
-        "Spiced vegetable mash served with buttered rolls and onion garnish",
-      image:
-        "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&auto=format&fit=crop&q=80",
-      price: "$9.49",
+        "Chicken Biryani is a flavorful and aromatic rice dish made with marinated chicken, fragrant basmati rice, and a blend of spices, cooked to perfection. This classic dish is known for its rich taste, layered textures, and enticing aroma.",
+      image: "../../public/food/Chicken-Biryani.webp",
     },
   ];
 

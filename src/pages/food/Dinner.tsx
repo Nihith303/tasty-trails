@@ -21,8 +21,7 @@ const DinnerPage = () => {
       name: "Butter Chicken with Naan",
       description:
         "Tender chicken in a rich tomato and butter sauce with fresh baked naan",
-      image:
-        "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=500&auto=format&fit=crop&q=80",
+      image: "../../public/food/dinner-1.jpeg",
       price: "$14.99",
     },
     {
@@ -30,8 +29,7 @@ const DinnerPage = () => {
       name: "Palak Paneer Dinner",
       description:
         "Creamy spinach curry with soft paneer cheese, served with rice and roti",
-      image:
-        "https://images.unsplash.com/photo-1517244683847-7456b63c5969?w=500&auto=format&fit=crop&q=80",
+      image: "../../public/food/dinner-2.jpeg",
       price: "$12.99",
     },
     {
@@ -39,8 +37,7 @@ const DinnerPage = () => {
       name: "Vegetable Kofta Curry",
       description:
         "Mixed vegetable dumplings in a spiced gravy with pulao rice",
-      image:
-        "https://images.unsplash.com/photo-1596797038530-2d5ff1cd04d4?w=500&auto=format&fit=crop&q=80",
+      image: "../../public/food/dinner-3.jpeg",
       price: "$11.99",
     },
     {
@@ -48,17 +45,15 @@ const DinnerPage = () => {
       name: "Dal Makhani with Jeera Rice",
       description:
         "Slow-cooked black lentils in a creamy tomato sauce with cumin-infused rice",
-      image:
-        "https://images.unsplash.com/photo-1590502593739-9d0ec89e844d?w=500&auto=format&fit=crop&q=80",
+      image: "../../public/food/dinner-4.jpeg",
       price: "$10.99",
     },
     {
       id: 5,
-      name: "Hyderabadi Dum Biryani",
+      name: "Dindigul Biryani",
       description:
-        "Aromatic rice dish with layered vegetables, served with raita and salan",
-      image:
-        "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500&auto=format&fit=crop&q=80",
+        "Dindigul Biryani is a flavorful South Indian biryani made with seeraga samba rice, tangy curd-based marinated meat, and aromatic spices, giving it a unique taste.",
+      image: "../../public/food/dinner-5.jpeg",
       price: "$13.49",
     },
     {
@@ -66,16 +61,14 @@ const DinnerPage = () => {
       name: "Tandoori Platter",
       description:
         "Assortment of tandoor-grilled vegetables and paneer with mint chutney",
-      image:
-        "https://images.unsplash.com/photo-1613292443284-8d10ef9be40b?w=500&auto=format&fit=crop&q=80",
+      image: "../../public/food/dinner-6.webp",
       price: "$15.99",
     },
     {
       id: 7,
       name: "Kadai Paneer Meal",
       description: "Bell pepper and paneer curry with a side of naan and raita",
-      image:
-        "https://images.unsplash.com/photo-1567188040759-fb8a253ef6e2?w=500&auto=format&fit=crop&q=80",
+      image: "../../public/food/dinner-7.jpeg",
       price: "$12.49",
     },
   ];
