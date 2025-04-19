@@ -8,7 +8,7 @@ const Hero = () => {
     <section
       className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url('../../public/bg.jpeg')",
+        backgroundImage: "url('/bg.jpeg')",
       }}
     >
       {/* Background decoration */}
@@ -66,7 +66,7 @@ const Hero = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="../img.jpg"
+                src="/img.jpg"
                 alt="Delicious home-cooked food"
                 className="w-full h-auto object-cover"
               />

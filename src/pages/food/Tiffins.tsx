@@ -31,7 +31,7 @@ const TiffinsPage = () => {
       name: "Idly & Vada Combo",
       description:
         "Soft Idly with crispy medu vada, served with tomato chutney",
-      image: "../../public/food/idly-vada.jpeg",
+      image: "/food/idly-vada.jpeg",
       price: "$7.99",
     },
     {
@@ -73,7 +73,7 @@ const TiffinsPage = () => {
       name: "Vermicelli Upma Box",
       description:
         "Light and flavorful vermicelli upma with vegetables and cashews",
-      image: "../../public/food/upma.jpeg",
+      image: "/food/upma.jpeg",
       price: "$6.49",
     },
   ];

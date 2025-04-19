@@ -66,7 +66,7 @@ const HowItWorks = () => {
 
         <div className="mt-16 text-center">
           <img
-            src="../../public/img.jpg"
+            src="/img.jpg"
             alt="Meal preparation"
             className="rounded-lg max-w-4xl mx-auto mb-8"
           />

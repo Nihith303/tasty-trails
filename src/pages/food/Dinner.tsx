@@ -21,7 +21,7 @@ const DinnerPage = () => {
       name: "Butter Chicken with Naan",
       description:
         "Tender chicken in a rich tomato and butter sauce with fresh baked naan",
-      image: "../../public/food/dinner-1.jpeg",
+      image: "/food/dinner-1.jpeg",
       price: "$14.99",
     },
     {
@@ -29,7 +29,7 @@ const DinnerPage = () => {
       name: "Palak Paneer Dinner",
       description:
         "Creamy spinach curry with soft paneer cheese, served with rice and roti",
-      image: "../../public/food/dinner-2.jpeg",
+      image: "/food/dinner-2.jpeg",
       price: "$12.99",
     },
     {
@@ -37,7 +37,7 @@ const DinnerPage = () => {
       name: "Vegetable Kofta Curry",
       description:
         "Mixed vegetable dumplings in a spiced gravy with pulao rice",
-      image: "../../public/food/dinner-3.jpeg",
+      image: "/food/dinner-3.jpeg",
       price: "$11.99",
     },
     {
@@ -45,7 +45,7 @@ const DinnerPage = () => {
       name: "Dal Makhani with Jeera Rice",
       description:
         "Slow-cooked black lentils in a creamy tomato sauce with cumin-infused rice",
-      image: "../../public/food/dinner-4.jpeg",
+      image: "/food/dinner-4.jpeg",
       price: "$10.99",
     },
     {
@@ -53,7 +53,7 @@ const DinnerPage = () => {
       name: "Dindigul Biryani",
       description:
         "Dindigul Biryani is a flavorful South Indian biryani made with seeraga samba rice, tangy curd-based marinated meat, and aromatic spices, giving it a unique taste.",
-      image: "../../public/food/dinner-5.jpeg",
+      image: "/food/dinner-5.jpeg",
       price: "$13.49",
     },
     {
@@ -61,14 +61,14 @@ const DinnerPage = () => {
       name: "Tandoori Platter",
       description:
         "Assortment of tandoor-grilled vegetables and paneer with mint chutney",
-      image: "../../public/food/dinner-6.webp",
+      image: "/food/dinner-6.webp",
       price: "$15.99",
     },
     {
       id: 7,
       name: "Kadai Paneer Meal",
       description: "Bell pepper and paneer curry with a side of naan and raita",
-      image: "../../public/food/dinner-7.jpeg",
+      image: "/food/dinner-7.jpeg",
       price: "$12.49",
     },
   ];

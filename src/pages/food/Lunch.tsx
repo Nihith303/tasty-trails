@@ -21,49 +21,49 @@ const LunchPage = () => {
       name: "Classic Andhra Thali",
       description:
         "A wholesome meal with tomato pappu, gutti vankaya kura, avakaya, curd rice, and pappadam for a traditional start.",
-      image: "../../public/food/thalli.jpeg",
+      image: "/food/thalli.jpeg",
     },
     {
       id: 2,
       name: "Spicy and Tangy Feast",
       description:
         "Enjoy tamarind rice, buttermilk curry, crispy okra fry, and gongura pachadi, balancing spice and tanginess.",
-      image: "../../public/food/spicy-feast.jpeg",
+      image: "/food/spicy-feast.jpeg",
     },
     {
       id: 3,
       name: "Nellore Special",
       description:
         "Relish the famous Nellore chepala pulusu with beans fry, pachi pulusu, and comforting mudda pappu.",
-      image: "../../public/food/nellore-special.jpg",
+      image: "/food/nellore-special.jpg",
     },
     {
       id: 4,
       name: "Rayalaseema Delights",
       description:
         "A rustic spread of jonna roti, ulavacharu, spicy natu kodi pulusu, kanda vepudu, and gongura pachadi.",
-      image: "../../public/food/rayala.jpg",
+      image: "/food/rayala.jpg",
     },
     {
       id: 5,
       name: "Vegetable Biryani",
       description:
         "Fragrant rice cooked with vegetables, herbs, and special spices",
-      image: "../../public/food/veg-briyani.avif",
+      image: "/food/veg-briyani.avif",
     },
     {
       id: 6,
       name: "Coastal Andhra Flavors",
       description:
         "Savor coastal delicacies like royyala iguru, brinjal chutney, dosakaya pappu, and pappadam with ghee.",
-      image: "../../public/food/vankaya.jpeg",
+      image: "/food/vankaya.jpeg",
     },
     {
       id: 7,
       name: "Chicken Biryani",
       description:
         "Chicken Biryani is a flavorful and aromatic rice dish made with marinated chicken, fragrant basmati rice, and a blend of spices, cooked to perfection. This classic dish is known for its rich taste, layered textures, and enticing aroma.",
-      image: "../../public/food/Chicken-Biryani.webp",
+      image: "/food/Chicken-Biryani.webp",
     },
   ];
 
